@@ -21,7 +21,6 @@ function onKeyDownHandler(e, index) {
     if (index === codes.length) {
       alert("KONAMI");
     }
-    index++;
   }
   else {
     index = 0;
@@ -33,10 +32,21 @@ function init() {
   // your code here
   let index = 0;
   document.body.addEventListener("keydown", (event) => {
+    const key = e.key;
+    
+    if (key === codes[index]) {
+      index++;
+      
+      if (index === codes.length) {
+        alert("KONAMI");
+      }
+    }
+    else {
+      index = 0;
+    }
     
     
-    
-    onKeyDownHandler(event, index);
+    //onKeyDownHandler(event, index);
   });
 }
 
