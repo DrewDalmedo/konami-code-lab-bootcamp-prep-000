@@ -22,7 +22,6 @@ function onKeyDownHandler(e, index) {
       alert("KONAMI");
     }
     else {
-      alert("sad konami")
       index = 0;
     }
   }
