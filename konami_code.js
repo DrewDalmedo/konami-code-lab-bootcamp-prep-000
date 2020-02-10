@@ -34,6 +34,10 @@ function init() {
   let index = 0;
   document.body.addEventListener("keydown", (event) => {
     
-    onKeyDownHandler(event, index);
+    
+    
+    //onKeyDownHandler(event);
   });
 }
+
+init();
