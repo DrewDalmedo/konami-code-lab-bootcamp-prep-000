@@ -36,7 +36,7 @@ function init() {
     
     
     
-    //onKeyDownHandler(event);
+    onKeyDownHandler(event, index);
   });
 }
 
