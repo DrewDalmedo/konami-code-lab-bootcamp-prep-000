@@ -21,6 +21,7 @@ function onKeyDownHandler(e, index) {
       alert("KONAMI CODEEEEEE");
     }
     else {
+      alert("YOURE A FAILURE");
       index = 0;
     }
   }
