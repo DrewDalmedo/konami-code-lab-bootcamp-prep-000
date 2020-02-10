@@ -16,14 +16,13 @@ function onKeyDownHandler(e, index) {
   const key = e.key;
   
   if (key === codes[index]) {
+    index++;
     if (index === codes.length) {
       alert("KONAMI");
     }
-    else {
-      index = 0;
-    }
-    
-    index++;
+  }
+  else {
+    index = 0;
   }
 }
 
