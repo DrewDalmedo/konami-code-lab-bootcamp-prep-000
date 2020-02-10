@@ -11,7 +11,7 @@ const codes = [
   "a"
 ];
 
-function onKeyDownHandler(e) {
+function onKeyDownHandler(e, index) {
   const key = e.key;
   
   if (key === alphabet[index]) {
