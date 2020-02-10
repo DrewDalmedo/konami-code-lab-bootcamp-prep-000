@@ -11,9 +11,26 @@ const codes = [
   "a"
 ];
 
+function onKeyDownHandler(e) {
+  const key = e.key;
+  
+  if (key === alphabet[index]) {
+    index++;
+    
+    if (index === alphabet.length) {
+      alert("KONAMI CODEEEEEE");
+    }
+    else {
+      index = 0;
+    }
+  }
+}
+
 function init() {
   // your code here
   document.body.addEventListener("keydown", (event) => {
+    let index = 0;
     
-  })
+    
+  });
 }
