@@ -31,8 +31,8 @@ function onKeyDownHandler(e, index) {
 
 function init() {
   // your code here
+  let index = 0;
   document.body.addEventListener("keydown", (event) => {
-    let index = 0;
     
     onKeyDownHandler(event, index);
   });
