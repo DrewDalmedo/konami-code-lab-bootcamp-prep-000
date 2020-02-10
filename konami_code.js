@@ -35,8 +35,5 @@ function init() {
     let index = 0;
     
     onKeyDownHandler(event, index);
-  }
-}
-    
   });
 }
